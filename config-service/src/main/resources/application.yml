@@ -1,0 +1,11 @@
+server:
+  port: ${PORT:8088}
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/marksato13/clz.git
+          

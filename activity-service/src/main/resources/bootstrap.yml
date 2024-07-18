@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: activity-service
+  cloud:
+    config:
+      uri: http://localhost:8088
